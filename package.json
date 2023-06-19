@@ -22,6 +22,7 @@
         "ios:metro": "yarn workspace @my-app/mobile start",
         "ios:start": "yarn workspace @my-app/mobile ios",
         "ios:xcode": "yarn workspace @my-app/mobile xcode",
+        "ios:pods": "yarn workspace @my-app/mobile pods",
         "web:start": "yarn workspace @my-app/web start",
         "web:build": "yarn workspace @my-app/web build",
         "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock"
