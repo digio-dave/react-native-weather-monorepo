@@ -1,4 +1,4 @@
-# React Native Universal Monorepo
+# React Native Weather Monorepo
 
 Credit to https://github.com/mmazzarolo/ the guide I used to setup this project
 
