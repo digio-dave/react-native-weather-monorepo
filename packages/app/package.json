@@ -1,0 +1,32 @@
+{
+    "name": "@my-app/app",
+    "version": "0.0.0",
+    "private": true,
+    "main": "src",
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "dependencies": {
+        "@react-native-picker/picker": "^2.4.10",
+        "axios": "^1.4.0",
+        "customize-cra": "^1.0.0",
+        "react-app-rewired": "^2.2.1",
+        "react-native-dropdown-select-list": "^2.0.4",
+        "react-native-element-dropdown": "^2.9.0",
+        "react-native-modal-dropdown": "^1.0.2",
+        "react-native-picker-select": "^8.0.4",
+        "react-native-reanimated": "^3.3.0",
+        "react-native-vector-icons": "^9.2.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.5",
+        "@babel/preset-react": "^7.22.5"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    }
+}

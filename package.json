@@ -1,0 +1,32 @@
+{
+    "name": "my-app",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": [
+            "react",
+            "react-dom",
+            "**/react-native",
+            "**/react-native/**",
+            "react-native-web",
+            "react-native-dropdown-select-list"
+        ]
+    },
+    "scripts": {
+        "android:metro": "yarn workspace @my-app/mobile start",
+        "android:start": "yarn workspace @my-app/mobile android",
+        "android:studio": "yarn workspace @my-app/mobile studio",
+        "ios:metro": "yarn workspace @my-app/mobile start",
+        "ios:start": "yarn workspace @my-app/mobile ios",
+        "ios:xcode": "yarn workspace @my-app/mobile xcode",
+        "web:start": "yarn workspace @my-app/web start",
+        "web:build": "yarn workspace @my-app/web build",
+        "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock"
+    },
+    "dependencies": {
+        "react-native": "^0.71.11"
+    }
+}
