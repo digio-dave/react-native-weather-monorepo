@@ -1,6 +1,6 @@
 # React Native Weather Monorepo
 
-Credit to https://github.com/mmazzarolo/ the guide I used to setup this project
+All credit to https://github.com/mmazzarolo/ for writing the guide I used to setup this project.
 
 
 Check out __[Running React Native everywhere](https://mmazzarolo.com/blog/2021-09-11-running-react-native-everywhere/)__ for an in-depth guide on how and why @mmazzarolo made certain decisions in building the boilerplate for this project.
